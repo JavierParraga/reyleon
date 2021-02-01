@@ -9,7 +9,7 @@ class Ranking extends REST_Controller{
         
     }
 
-    public function enviar_put()
+    public function index_put()
     {
         $data = $this->put();
 
@@ -34,7 +34,7 @@ class Ranking extends REST_Controller{
         }
     }
 
-    public function recibir_get()
+    public function index_get()
     {
 
         $this->db->order_by('puntuacion ASC, id ASC');
