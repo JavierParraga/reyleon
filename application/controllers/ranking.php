@@ -60,7 +60,7 @@ class Ranking extends REST_Controller{
                     'data' => [],
                 );
 
-                $this->response($data, REST_Controller::HTTP_NOT_FOUND);
+              //  $this->response($data, REST_Controller::HTTP_NOT_FOUND);
             } else {
 
                 $data = array(
